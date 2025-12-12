@@ -10,7 +10,9 @@ self.addEventListener("install", e => {
         "./count.css",
         "./result.css",
         "./audio1.mp3",
-        "./audio2.mp3"
+        "./audio2.mp3",
+        "./manifest.json",
+        "./clock_icon.png"
       ]);
     })
   );
