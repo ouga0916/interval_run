@@ -19,4 +19,5 @@ function Load() {
     const clearBtn = document.querySelector("#clear");
     let arr = JSON.parse(localStorage.getItem("keyDate") || "[]");
     clearBtn.addEventListener("click", Clear);
+
     Load();
