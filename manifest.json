@@ -2,7 +2,7 @@
   "name": "IntervalrunTimer",
   "short_name": "Timer",
   "display": "standalone",
-  "start_url": "index.html",
+  "start_url": "/IntervalrunTimer/index.html",
   "icons": [
     {
       "src": "clock_icon.png",
