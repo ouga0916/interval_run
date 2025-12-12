@@ -45,10 +45,12 @@ button, input[type="button"] {
     }
 
     button, input[type="button"] {
-        font-size: 16px;
-        padding: 12px;
-    }
-
+        width: 80%;        /* ← 全幅やめる */
+        max-width: 300px;  /* ← 大きすぎ防止 */
+        padding: 12px;     
+        margin: 10px auto; /* ← 中央寄せ */
+        display: block;    /* ← auto marginで中央になる */
 }
+
 
 
