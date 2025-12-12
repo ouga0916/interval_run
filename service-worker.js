@@ -8,7 +8,9 @@ self.addEventListener("install", e => {
         "./count.js",
         "./result.js",
         "./count.css",
-        "./result.css"
+        "./result.css",
+        "./audio1.mp3",
+        "./audio2.mp3"
       ]);
     })
   );
