@@ -55,8 +55,9 @@ lt{
     }
 
     button, input[type="button"] {
-        width: 100%;   /* ボタンを全幅に */
+        width: 50%;   /* ボタンを全幅に */
         font-size: 16px;
         padding: 12px;
     }
+
 }
