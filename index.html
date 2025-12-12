@@ -6,6 +6,7 @@
     <title>IntervalrunTimer</title>
     <script src="./count.js"></script>
     <link rel="stylesheet" href="./count.css">
+    <link rel="manifest" href="./manifest.json">
 </head>
 <body class="container">
 <input type="button" value="開始" id="start">
@@ -25,6 +26,13 @@
 
 <audio id="audio2" src="./audio2.mp3"></audio>
 
+
+    <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./service-worker.js");
+}
+    </script>
 </body>
 </html>
+
 
