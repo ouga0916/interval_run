@@ -31,8 +31,13 @@
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./service-worker.js");
 }
+
+window.onerror = function(msg, url, line, col, error){
+    alert("JSエラー: " + msg + "\nline: " + line);
+}
     </script>
 </body>
 </html>
+
 
 
