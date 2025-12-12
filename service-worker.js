@@ -3,7 +3,7 @@ self.addEventListener("install", e => {
     caches.open("v1").then(cache => {
       return cache.addAll([
         "./",
-        "./count.html",
+        "./index.html",
         "./result.html",
         "./count.js",
         "./result.js",
