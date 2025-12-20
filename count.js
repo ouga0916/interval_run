@@ -56,7 +56,7 @@ function makeDate() {
 }
 
 function Minute(minute){
-  return (minute.length != 1) ? "0" + minute : minute;
+  return (minute < 10) ? "0" + minute : minute;
 }
 
 
@@ -112,4 +112,5 @@ let timerID;         // タイマーID
 
 startBtn.addEventListener("click", Start);
 resetBtn.addEventListener("click", Reset);
+
 resultBtn.addEventListener("click", Result);
