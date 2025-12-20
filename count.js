@@ -31,6 +31,7 @@ function Reset() {
  timer.textContent = "";
  startBtn.setAttribute("value","開始");
  resetBtn.setAttribute("disabled","true");
+ resetBtn.setAttribute("disabled","true");
  a1flag = false;
  a2flag = false;
 }
@@ -119,3 +120,4 @@ startBtn.addEventListener("click", Start);
 resetBtn.addEventListener("click", Reset);
 resultBtn.addEventListener("click", Result);
 openBtn.addEventListener("click",OpenResult);
+
