@@ -44,6 +44,10 @@ function Result() {
   window.open("./result.html");
 }
 
+function OpenResult(){
+  window.open("./result.html");
+}
+
 function makeDate() {
   const d = new Date();
   return (
@@ -96,6 +100,7 @@ const timer = document.querySelector("#timer");
 const startBtn = document.querySelector("#start");
 const resetBtn = document.querySelector("#reset");
 const resultBtn = document.querySelector("#result");
+const openBtn = document.querySelector("#openResult");
 const audio1 = document.querySelector("#audio1");
 const audio2 = document.querySelector("#audio2");
 
@@ -112,5 +117,5 @@ let timerID;         // タイマーID
 
 startBtn.addEventListener("click", Start);
 resetBtn.addEventListener("click", Reset);
-
 resultBtn.addEventListener("click", Result);
+openBtn.addEventListener("click",OpenResult);
